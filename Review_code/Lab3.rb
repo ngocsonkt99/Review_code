@@ -19,7 +19,7 @@ else
   puts "khong chinh xac"
 end
 
-#Toan tu so sanh: ==; !=; >; <; >=; <=
+# Toan tu so sanh: ==; !=; >; <; >=; <=
 1 == 1 #=> true
 "mot" == "mot" #=> true
 1 == 2 #=> false
@@ -33,7 +33,7 @@ hai == ba #=> false
 # nếu gọi lớp trên một biến, có thể xem đó là một chuỗi, một số nguyên, v.v.
 hai.class
 ba.class
-if hai.class == ba.class #=> true
+if hai.class == ba.class # => true
   puts "true"
 else
   puts "false"
