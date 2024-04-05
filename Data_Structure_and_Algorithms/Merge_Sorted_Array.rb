@@ -43,7 +43,5 @@ Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 # @param {Integer} m
 # @param {Integer} n
 def merge(nums1, m, nums2, n)
-  result = nums1.take(m).concat(nums2.take(n))
-  result.sort!
-  nums1.replace(result)
+  nums1.replace(nums1.take(m).concat(nums2.take(n)).sort!)
 end
